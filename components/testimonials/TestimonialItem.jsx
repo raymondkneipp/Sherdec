@@ -5,7 +5,7 @@ const TestimonialItem = ({ image, name, quote }) => {
   return (
     <div className="flex flex-col">
       <p className="text-lg mb-5 text-neutral-content text-opacity-80 flex-1">
-        "{quote}"
+        &quot;{quote}&quot;
       </p>
 
       <div className="flex items-center space-x-5">
@@ -16,6 +16,7 @@ const TestimonialItem = ({ image, name, quote }) => {
             objectFit="cover"
             width={80}
             height={80}
+            alt="Customer image"
           />
         </div>
 

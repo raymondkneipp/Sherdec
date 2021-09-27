@@ -5,7 +5,7 @@ export default function ContactPage() {
     <Layout>
       <Methods />
       <div className="container">
-        <div class="divider opacity-70">OR</div>
+        <div className="divider opacity-70">OR</div>
       </div>
       <Form />
     </Layout>

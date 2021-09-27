@@ -24,6 +24,7 @@ const Certifications = () => {
           objectFit="contain"
           width={size / 2}
           height={size}
+          alt="acrt certification"
         />
         <Image
           src="/images/ash-bore.png"
@@ -31,6 +32,7 @@ const Certifications = () => {
           objectFit="contain"
           width={size / 2}
           height={size}
+          alt="no ash bore"
         />
         <Image
           src="/images/isa.png"
@@ -38,6 +40,7 @@ const Certifications = () => {
           objectFit="contain"
           width={size / 2}
           height={size}
+          alt="isa certification"
         />
         <Image
           src="/images/tcta.png"
@@ -45,6 +48,7 @@ const Certifications = () => {
           objectFit="contain"
           width={size / 2}
           height={size}
+          alt="tcta certification"
         />
       </div>
     </div>

@@ -27,7 +27,7 @@ const Navbar = () => {
               <a className="btn btn-ghost rounded-btn">Contact</a>
             </Link>
             <div className="dropdown dropdown-hover">
-              <div tabindex="0" className="btn btn-ghost">
+              <div tabIndex="0" className="btn btn-ghost">
                 Tree Care
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -45,7 +45,7 @@ const Navbar = () => {
                 </svg>
               </div>
               <ul
-                tabindex="0"
+                tabIndex="0"
                 className="p-2 border border-base-200 shadow-xl menu dropdown-content bg-base-100 rounded-box w-52"
               >
                 <li>
