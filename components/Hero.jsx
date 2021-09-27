@@ -22,10 +22,10 @@ const Hero = () => {
         </p>
         <div className="space-x-0 space-y-2 flex flex-col sm:space-y-0 sm:space-x-5 sm:flex-row items-start">
           <Link href="/schedule">
-            <a className="btn md:btn-lg btn-primary">Schedule</a>
+            <a className="btn btn-lg btn-primary">Schedule</a>
           </Link>
           <Link href="/contact">
-            <a className="btn md:btn-lg">Contact</a>
+            <a className="btn btn-lg">Contact</a>
           </Link>
         </div>
       </div>
