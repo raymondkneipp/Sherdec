@@ -72,7 +72,7 @@ const MobileNavbar = () => {
             </div>
             <ul
               tabIndex="0"
-              className="p-2 shadow menu dropdown-content bg-base-200 rounded-box w-full"
+              className="p-2 border border-base-200 shadow-xl menu dropdown-content bg-base-100 rounded-box w-full"
             >
               <li>
                 <a>Seasonal Care</a>
