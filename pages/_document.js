@@ -8,7 +8,7 @@ class MyDocument extends Document {
 
   render() {
     return (
-      <Html data-theme="emerald">
+      <Html data-theme="garden">
         <Head>
           <link rel="icon" type="image/svg+xml" href="/images/favicon.svg" />
           <link rel="icon" type="image/png" href="/images/favicon.png" />

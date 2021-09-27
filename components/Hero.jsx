@@ -20,12 +20,12 @@ const Hero = () => {
           Sherdec Tree Service leads the way with the Tri-state&apos;s most
           comprehensive tree care service.
         </p>
-        <div className="space-x-0 space-y-2 flex flex-col sm:space-y-0 sm:space-x-5 sm:flex-row items-start">
+        <div className="flex flex-wrap">
           <Link href="/schedule">
-            <a className="btn btn-lg btn-primary">Schedule</a>
+            <a className="btn btn-lg btn-primary m-2">Schedule</a>
           </Link>
           <Link href="/contact">
-            <a className="btn btn-lg">Contact</a>
+            <a className="btn btn-lg m-2">Contact</a>
           </Link>
         </div>
       </div>
