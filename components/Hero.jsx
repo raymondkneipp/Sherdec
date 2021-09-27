@@ -17,7 +17,7 @@ const Hero = () => {
           Tree work can be hazardous! Hire an arborist.
         </h1>
         <p className="mb-5 text-xl md:text-2xl opacity-80">
-          Sherdec Tree Service leads the way with the Tri-states' most
+          Sherdec Tree Service leads the way with the Tri-state's most
           comprehensive tree care service.
         </p>
         <div className="space-x-0 space-y-2 flex flex-col sm:space-y-0 sm:space-x-5 sm:flex-row items-start">
