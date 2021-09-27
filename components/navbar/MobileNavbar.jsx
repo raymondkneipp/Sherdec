@@ -32,28 +32,28 @@ const MobileNavbar = () => {
         </li>
         <li>
           <Link href="/">
-            <a>Home</a>
+            <a className="btn btn-ghost leading-4">Home</a>
           </Link>
         </li>
         <li>
           <Link href="/about">
-            <a>About</a>
+            <a className="btn btn-ghost leading-4">About</a>
           </Link>
         </li>
         <li>
           <Link href="/services">
-            <a>Services</a>
+            <a className="btn btn-ghost leading-4">Services</a>
           </Link>
         </li>
         <li>
           <Link href="/contact">
-            <a>Contact</a>
+            <a className="btn btn-ghost leading-4">Contact</a>
           </Link>
         </li>
 
         <li>
           <div className="dropdown w-full">
-            <div tabIndex="0" className="btn btn-block">
+            <div tabIndex="0" className="btn btn-block btn-ghost">
               Tree Care
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -92,9 +92,9 @@ const MobileNavbar = () => {
             </ul>
           </div>
         </li>
-        <li className="btn btn-primary">
+        <li>
           <Link href="/schedule">
-            <a className="m-auto">Schedule</a>
+            <a className="btn btn-primary leading-4">Schedule</a>
           </Link>
         </li>
       </ul>
