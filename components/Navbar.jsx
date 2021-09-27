@@ -7,10 +7,14 @@ const Navbar = () => {
     <nav className="bg-base-100 border-b border-base-200 text-base-content z-50 md:sticky left-0 right-0 top-0">
       <div className="container navbar">
         <div className="flex-1 text-primary">
-          <Logo />
-          <span className="text-3xl font-bold font-lucida ml-5 text-base-content">
-            Sherdec
-          </span>
+          <Link href="/">
+            <a className="flex items-center">
+              <Logo />
+              <span className="text-3xl font-bold font-lucida ml-5 text-base-content">
+                Sherdec
+              </span>
+            </a>
+          </Link>
         </div>
         <div className="flex-none hidden lg:block">
           <div className="flex items-stretch">
