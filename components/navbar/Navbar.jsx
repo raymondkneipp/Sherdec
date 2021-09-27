@@ -73,7 +73,10 @@ const Navbar = () => {
           </div>
         </div>
         <div className="flex-none block lg:hidden">
-          <label for="my-drawer" class="btn btn-ghost drawer-button btn-square">
+          <label
+            htmlFor="my-drawer"
+            className="btn btn-ghost drawer-button btn-square"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-6 w-6"

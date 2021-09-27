@@ -3,14 +3,17 @@ import Link from "next/link";
 
 const MobileNavbar = () => {
   return (
-    <div class="drawer-side">
-      <label for="my-drawer" class="drawer-overlay"></label>
+    <div className="drawer-side">
+      <label htmlFor="my-drawer" className="drawer-overlay"></label>
       <ul
-        class="menu p-4 overflow-y-auto w-80 bg-base-100 text-base-content space-y-2"
+        className="menu p-4 overflow-y-auto w-80 bg-base-100 text-base-content space-y-2"
         style={{ maxWidth: "100vw" }}
       >
         <li className="ml-auto">
-          <label for="my-drawer" class="btn btn-ghost drawer-button btn-square">
+          <label
+            htmlFor="my-drawer"
+            className="btn btn-ghost drawer-button btn-square"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-6 w-6"
@@ -49,8 +52,8 @@ const MobileNavbar = () => {
         </li>
 
         <li>
-          <div class="dropdown w-full">
-            <div tabindex="0" class="btn btn-block">
+          <div className="dropdown w-full">
+            <div tabIndex="0" className="btn btn-block">
               Tree Care
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -68,8 +71,8 @@ const MobileNavbar = () => {
               </svg>
             </div>
             <ul
-              tabindex="0"
-              class="p-2 shadow menu dropdown-content bg-base-200 rounded-box w-full"
+              tabIndex="0"
+              className="p-2 shadow menu dropdown-content bg-base-200 rounded-box w-full"
             >
               <li>
                 <a>Seasonal Care</a>

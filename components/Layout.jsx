@@ -4,9 +4,9 @@ import { Footer, MobileNavbar, Navbar } from ".";
 const Layout = ({ children }) => {
   return (
     <>
-      <div class="drawer">
-        <input id="my-drawer" type="checkbox" class="drawer-toggle" />
-        <div class="drawer-content">
+      <div className="drawer">
+        <input id="my-drawer" type="checkbox" className="drawer-toggle" />
+        <div className="drawer-content">
           <Navbar />
           <main>{children}</main>
           <Footer />
