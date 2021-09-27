@@ -11,7 +11,7 @@ const Footer = () => {
             <span className="text-primary mb-2">
               <Logo />
             </span>
-            <p>Sherdec Tree Service LLC</p>
+            <p>&#169; 2021 Sherdec Tree Service, LLC</p>
             <p>Triple Certified Tree Care & Removal Company</p>
             <p>
               Website by{" "}
