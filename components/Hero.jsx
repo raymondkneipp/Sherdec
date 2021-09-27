@@ -10,6 +10,7 @@ const Hero = () => {
         backgroundSize: "contain",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "right bottom",
+        minHeight: "80vh",
       }}
     >
       <div className="max-w-3xl">
