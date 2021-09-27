@@ -4,7 +4,7 @@ import { Logo } from "../icons";
 
 const Navbar = () => {
   return (
-    <nav className="bg-base-100 border-b border-base-200 text-base-content z-50 md:sticky left-0 right-0 top-0">
+    <nav className="bg-base-100 border-b border-base-200 text-base-content z-50 sticky left-0 right-0 top-0">
       <div className="container navbar">
         <div className="flex-1 text-primary">
           <Link href="/">
