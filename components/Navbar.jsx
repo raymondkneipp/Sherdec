@@ -4,30 +4,30 @@ import { Logo } from "./icons";
 
 const Navbar = () => {
   return (
-    <nav class="bg-base-100 border-b border-base-200 text-base-content z-50 md:sticky left-0 right-0 top-0">
+    <nav className="bg-base-100 border-b border-base-200 text-base-content z-50 md:sticky left-0 right-0 top-0">
       <div className="container navbar">
-        <div class="flex-1 text-primary">
+        <div className="flex-1 text-primary">
           <Logo />
-          <span class="text-3xl font-bold font-lucida ml-5 text-base-content">
+          <span className="text-3xl font-bold font-lucida ml-5 text-base-content">
             Sherdec
           </span>
         </div>
-        <div class="flex-none hidden lg:block">
-          <div class="flex items-stretch">
+        <div className="flex-none hidden lg:block">
+          <div className="flex items-stretch">
             <Link href="/">
-              <a class="btn btn-ghost rounded-btn">Home</a>
+              <a className="btn btn-ghost rounded-btn">Home</a>
             </Link>
             <Link href="/about">
-              <a class="btn btn-ghost rounded-btn">About</a>
+              <a className="btn btn-ghost rounded-btn">About</a>
             </Link>
             <Link href="/services">
-              <a class="btn btn-ghost rounded-btn">Services</a>
+              <a className="btn btn-ghost rounded-btn">Services</a>
             </Link>
             <Link href="/contact">
-              <a class="btn btn-ghost rounded-btn">Contact</a>
+              <a className="btn btn-ghost rounded-btn">Contact</a>
             </Link>
-            <div class="dropdown dropdown-hover">
-              <div tabindex="0" class="btn btn-ghost">
+            <div className="dropdown dropdown-hover">
+              <div tabindex="0" className="btn btn-ghost">
                 Tree Care
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -46,7 +46,7 @@ const Navbar = () => {
               </div>
               <ul
                 tabindex="0"
-                class="p-2 border border-base-200 shadow-xl menu dropdown-content bg-base-100 rounded-box w-52"
+                className="p-2 border border-base-200 shadow-xl menu dropdown-content bg-base-100 rounded-box w-52"
               >
                 <li>
                   <a>Seasonal Care</a>
@@ -65,7 +65,7 @@ const Navbar = () => {
                 </li>
               </ul>
             </div>
-            <a class="btn btn-primary rounded-btn">Schedule</a>
+            <a className="btn btn-primary rounded-btn">Schedule</a>
           </div>
         </div>
       </div>

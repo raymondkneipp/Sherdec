@@ -12,11 +12,11 @@ const Hero = () => {
         backgroundPosition: "right bottom",
       }}
     >
-      <div class="max-w-3xl">
-        <h1 class="mb-5 text-4xl sm:text-5xl md:text-6xl font-bold">
+      <div className="max-w-3xl">
+        <h1 className="mb-5 text-4xl sm:text-5xl md:text-6xl font-bold">
           Tree work can be hazardous! Hire an arborist.
         </h1>
-        <p class="mb-5 text-xl md:text-2xl opacity-80">
+        <p className="mb-5 text-xl md:text-2xl opacity-80">
           Sherdec Tree Service leads the way with the Tri-states' most
           comprehensive tree care service.
         </p>

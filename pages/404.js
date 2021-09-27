@@ -13,12 +13,12 @@ export default function NotFoundPage() {
           backgroundPosition: "right bottom",
         }}
       >
-        <div class="max-w-3xl text-center">
-          <h6 class="mb-2 text-primary uppercase font-bold">404 Error</h6>
-          <h1 class="mb-5 text-4xl sm:text-5xl md:text-6xl font-bold">
+        <div className="max-w-3xl text-center">
+          <h6 className="mb-2 text-primary uppercase font-bold">404 Error</h6>
+          <h1 className="mb-5 text-4xl sm:text-5xl md:text-6xl font-bold">
             Page not found.
           </h1>
-          <p class="mb-5 text-lg md:text-2xl opacity-80">
+          <p className="mb-5 text-lg md:text-2xl opacity-80">
             Sorry, we could not find the page you are looking for.
           </p>
 

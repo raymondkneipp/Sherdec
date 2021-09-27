@@ -7,7 +7,7 @@ const Methods = () => {
     <div className="bg-base-100 py-32">
       <div className="container grid grid-flow-row xl:grid-flow-col gap-10">
         <div className="flex flex-col justify-start items-start">
-          <h1 class="mb-5 text-4xl sm:text-5xl md:text-6xl font-bold">
+          <h1 className="mb-5 text-4xl sm:text-5xl md:text-6xl font-bold">
             Get in touch
           </h1>
 

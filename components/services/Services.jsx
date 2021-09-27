@@ -11,7 +11,7 @@ const Services = ({ simplified }) => {
           {simplified ? (
             <h2 className="text-4xl font-bold mb-5">Tree Care Services</h2>
           ) : (
-            <h1 class="mb-5 text-4xl sm:text-5xl md:text-6xl font-bold xl:max-w-md">
+            <h1 className="mb-5 text-4xl sm:text-5xl md:text-6xl font-bold xl:max-w-md">
               Tree Care Services
             </h1>
           )}
@@ -24,7 +24,7 @@ const Services = ({ simplified }) => {
           </p>
           {simplified && (
             <Link href="/services">
-              <a class="btn">All Services</a>
+              <a className="btn">All Services</a>
             </Link>
           )}
         </div>

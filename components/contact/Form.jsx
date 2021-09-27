@@ -13,42 +13,42 @@ const Form = () => {
             </p>
           </div>
 
-          <div class="card w-full shadow-xl bg-base-100">
-            <div class="card-body">
-              <div class="form-control">
-                <label class="label">
-                  <span class="label-text">Full Name</span>
+          <div className="card w-full shadow-xl bg-base-100">
+            <div className="card-body">
+              <div className="form-control">
+                <label className="label">
+                  <span className="label-text">Full Name</span>
                 </label>
-                <input type="text" class="input input-bordered" />
+                <input type="text" className="input input-bordered" />
               </div>
-              <div class="form-control">
-                <label class="label">
-                  <span class="label-text">Email</span>
+              <div className="form-control">
+                <label className="label">
+                  <span className="label-text">Email</span>
                 </label>
-                <input type="text" class="input input-bordered" />
+                <input type="text" className="input input-bordered" />
               </div>
-              <div class="form-control">
-                <label class="label">
-                  <span class="label-text">Phone</span>
+              <div className="form-control">
+                <label className="label">
+                  <span className="label-text">Phone</span>
                 </label>
                 <input
                   type="text"
-                  class="input input-bordered"
+                  className="input input-bordered"
                   placeholder=""
                 />
-                <label class="label label-text-alt">(555) 555-5555</label>
+                <label className="label label-text-alt">(555) 555-5555</label>
               </div>
-              <div class="form-control">
-                <label class="label">
-                  <span class="label-text">Your Message</span>
+              <div className="form-control">
+                <label className="label">
+                  <span className="label-text">Your Message</span>
                 </label>
-                <textarea class="textarea h-24 textarea-bordered"></textarea>
+                <textarea className="textarea h-24 textarea-bordered"></textarea>
               </div>
-              <div class="form-control mt-6">
+              <div className="form-control mt-6">
                 <input
                   type="button"
                   value="Send Message"
-                  class="btn btn-primary"
+                  className="btn btn-primary"
                 />
               </div>
             </div>
