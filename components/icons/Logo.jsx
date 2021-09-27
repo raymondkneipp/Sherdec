@@ -1,11 +1,11 @@
 import React from "react";
 
-function Logo({ size = 60 }) {
+function Logo() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 565.649 734.945"
-      width={size}
+      className="w-10 lg:w-16"
     >
       <defs>
         <clipPath id="a" clipPathUnits="userSpaceOnUse">

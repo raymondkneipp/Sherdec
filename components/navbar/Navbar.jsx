@@ -10,7 +10,7 @@ const Navbar = () => {
           <Link href="/">
             <a className="flex items-center">
               <Logo />
-              <span className="text-3xl font-bold font-lucida ml-5 text-base-content">
+              <span className="text-2xl lg:text-3xl font-bold font-lucida ml-5 text-base-content">
                 Sherdec
               </span>
             </a>
