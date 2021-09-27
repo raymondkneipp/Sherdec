@@ -36,11 +36,11 @@ const Footer = () => {
             <Link href="/about">
               <a className="link link-hover">About</a>
             </Link>
-            <Link href="/contact">
-              <a className="link link-hover">Contact</a>
-            </Link>
             <Link href="/services">
               <a className="link link-hover">Services</a>
+            </Link>
+            <Link href="/contact">
+              <a className="link link-hover">Contact</a>
             </Link>
             <Link href="/schedule">
               <a className="link link-hover">Schedule</a>
