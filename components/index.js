@@ -12,3 +12,4 @@ export { default as MobileNavbar } from "./navbar/MobileNavbar";
 export { default as Leadership } from "./about/Leadership";
 export { default as Avatar } from "./Avatar";
 export { default as Info } from "./about/Info";
+export { default as SEOTags } from "./SEOTags";

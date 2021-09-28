@@ -1,9 +1,10 @@
-import { Layout } from "../components";
+import { Layout, SEOTags } from "../components";
 import Link from "next/link";
 
 export default function NotFoundPage() {
   return (
     <Layout>
+      <SEOTags title="Page Not Found" />
       <div
         className="container py-20 sm:py-32 md:py-40 lg:py-56 xl:py-64 flex items-center justify-center"
         style={{
