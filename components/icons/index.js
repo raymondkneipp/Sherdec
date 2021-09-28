@@ -18,3 +18,6 @@ export { default as Target } from "./Target";
 export { default as Heart } from "./Heart";
 export { default as DownArrow } from "./DownArrow";
 export { default as Tree } from "./Tree";
+export { default as Sun } from "./Sun";
+export { default as Flower } from "./Flower";
+export { default as Snow } from "./Snow";
