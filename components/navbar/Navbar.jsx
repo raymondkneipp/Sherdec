@@ -57,7 +57,9 @@ const Navbar = () => {
             <Link href="/contact">
               <a className="btn btn-ghost rounded-btn">Contact</a>
             </Link>
-            <a className="btn btn-primary rounded-btn">Schedule</a>
+            <Link href="/schedule">
+              <a className="btn btn-primary rounded-btn">Schedule</a>
+            </Link>
           </div>
         </div>
         <div className="flex-none block lg:hidden">

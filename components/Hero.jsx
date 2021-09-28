@@ -6,7 +6,7 @@ const Hero = () => {
     <div
       className="container py-20 sm:py-32 md:py-40 lg:py-56 xl:py-64 flex items-center justify-start"
       style={{
-        backgroundImage: "url('/images/tree.svg')",
+        backgroundImage: "url('/images/tree-with-climber.svg')",
         backgroundSize: "contain",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "right bottom",
