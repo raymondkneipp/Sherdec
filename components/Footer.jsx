@@ -31,8 +31,12 @@ const Footer = () => {
             <Link href="/insects">
               <a className="link link-hover">Insects</a>
             </Link>
-            <a className="link link-hover">Disease / Fertilization</a>
-            <a className="link link-hover">Pruning Tips</a>
+            <Link href="/disease">
+              <a className="link link-hover">Disease / Fertilization</a>
+            </Link>
+            <Link href="/pruning-tips">
+              <a className="link link-hover">Pruning Tips</a>
+            </Link>
           </div>
           <div>
             <span className="footer-title">Pages</span>

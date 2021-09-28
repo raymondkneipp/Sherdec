@@ -72,10 +72,14 @@ const MobileNavbar = () => {
                 </Link>
               </li>
               <li>
-                <a>Disease/Fertilization</a>
+                <Link href="/disease">
+                  <a>Disease/Fertilization</a>
+                </Link>
               </li>
               <li>
-                <a>Pruning Tips</a>
+                <Link href="/pruning-tips">
+                  <a>Pruning Tips</a>
+                </Link>
               </li>
             </ul>
           </div>
