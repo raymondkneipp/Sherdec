@@ -10,8 +10,10 @@ function Topic({ title, content, pdf }) {
       </div>
       <div className="collapse-content">
         <div className="flex flex-col space-y-5 items-start">
-          {content?.map((item) => (
-            <p className="text-base-content">{item}</p>
+          {content?.map((item, i) => (
+            <p className="text-base-content" key={i}>
+              {item}
+            </p>
           ))}
           {pdf && (
             <Link href={`/pdfs/${pdf}`}>
