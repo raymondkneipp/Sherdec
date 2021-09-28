@@ -1,11 +1,10 @@
 import React from "react";
+import { Avatar } from "..";
 
 const ServiceItem = ({ icon, title, description }) => {
   return (
     <div className="text-primary grid grid-flow-col gap-5">
-      <div className="text-primary-content text-opacity-80 bg-primary mask mask-squircle w-16 h-16 flex items-center justify-center mb-5">
-        {icon}
-      </div>
+      <Avatar image={icon} />
       <div>
         <h3 className="text-2xl font-bold mb-2">{title}</h3>
         <p className="text-base-content text-opacity-80">{description}</p>

@@ -9,3 +9,6 @@ export { default as CTA } from "./CTA";
 export { default as Methods } from "./contact/Methods";
 export { default as Form } from "./contact/Form";
 export { default as MobileNavbar } from "./navbar/MobileNavbar";
+export { default as Leadership } from "./about/Leadership";
+export { default as Avatar } from "./Avatar";
+export { default as Info } from "./about/Info";

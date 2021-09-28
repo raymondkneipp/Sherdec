@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import { Avatar } from "..";
 
 const TestimonialItem = ({ image, name, quote }) => {
   return (
@@ -9,16 +10,19 @@ const TestimonialItem = ({ image, name, quote }) => {
       </p>
 
       <div className="flex items-center space-x-5">
-        <div className="mask mask-squircle w-16 h-16">
-          <Image
-            src={`/images/${image}`}
-            layout="intrinsic"
-            objectFit="cover"
-            width={80}
-            height={80}
-            alt="Customer image"
-          />
-        </div>
+        <Avatar
+          large
+          image={
+            <Image
+              src={`/images/${image}`}
+              layout="intrinsic"
+              objectFit="cover"
+              width={80}
+              height={80}
+              alt="Customer image"
+            />
+          }
+        />
 
         <h6 className="text-lg font-bold">{name}</h6>
       </div>
