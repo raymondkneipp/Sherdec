@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { Logo } from "../icons";
+import { DownArrow, Logo } from "../icons";
 
 const Navbar = () => {
   return (
@@ -27,26 +27,11 @@ const Navbar = () => {
             <Link href="/services">
               <a className="btn btn-ghost rounded-btn">Services</a>
             </Link>
-            <Link href="/contact">
-              <a className="btn btn-ghost rounded-btn">Contact</a>
-            </Link>
+
             <div className="dropdown dropdown-hover">
               <div tabIndex="0" className="btn btn-ghost">
                 Tree Care
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-4 w-4 ml-1"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M19 9l-7 7-7-7"
-                  />
-                </svg>
+                <DownArrow />
               </div>
               <ul
                 tabIndex="0"
@@ -69,6 +54,9 @@ const Navbar = () => {
                 </li>
               </ul>
             </div>
+            <Link href="/contact">
+              <a className="btn btn-ghost rounded-btn">Contact</a>
+            </Link>
             <a className="btn btn-primary rounded-btn">Schedule</a>
           </div>
         </div>

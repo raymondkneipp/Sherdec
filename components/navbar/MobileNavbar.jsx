@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import { DownArrow } from "../icons";
 
 const MobileNavbar = () => {
   return (
@@ -46,29 +47,10 @@ const MobileNavbar = () => {
           </Link>
         </li>
         <li>
-          <Link href="/contact">
-            <a className="btn btn-ghost leading-4">Contact</a>
-          </Link>
-        </li>
-
-        <li>
           <div className="dropdown w-full">
             <div tabIndex="0" className="btn btn-block btn-ghost">
               Tree Care
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-4 w-4 ml-1"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M19 9l-7 7-7-7"
-                />
-              </svg>
+              <DownArrow />
             </div>
             <ul
               tabIndex="0"
@@ -91,6 +73,11 @@ const MobileNavbar = () => {
               </li>
             </ul>
           </div>
+        </li>
+        <li>
+          <Link href="/contact">
+            <a className="btn btn-ghost leading-4">Contact</a>
+          </Link>
         </li>
         <li>
           <Link href="/schedule">
