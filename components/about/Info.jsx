@@ -29,7 +29,7 @@ const Info = () => {
       <InfoItem
         className="order-3 md:order-4 xl:order-3"
         icon={<Shake />}
-        title="Trusted Experts"
+        title="Trusted experts"
         description="We have
                 extensive training and experience in extremely difficult and
                 highly sensitive removals. We strive to always utilize the
