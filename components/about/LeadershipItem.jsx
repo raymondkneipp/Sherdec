@@ -13,6 +13,7 @@ const LeadershipItem = ({ image, name, title }) => {
             layout="intrinsic"
             width="100"
             height="100"
+            alt={`${title} picture`}
           />
         }
       />

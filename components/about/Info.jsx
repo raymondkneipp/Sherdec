@@ -16,13 +16,14 @@ const Info = () => {
                 attention to detail and safety you would expect."
       />
 
-      <div className="mask mask-squircle order-2 md:order-2 xl:order-2">
+      <div className="mask mask-squircle bg-primary order-2 md:order-2 xl:order-2">
         <Image
           src="/images/work5.jpg"
           layout="responsive"
           objectFit="cover"
           width="300"
           height="300"
+          alt="tree care photo"
         />
       </div>
 
@@ -38,13 +39,14 @@ const Info = () => {
                 job right."
       />
 
-      <div className="mask mask-squircle order-4 md:order-3 xl:order-3">
+      <div className="mask mask-squircle bg-primary order-4 md:order-3 xl:order-3">
         <Image
           src="/images/work2.jpg"
           layout="responsive"
           objectFit="cover"
           width="300"
           height="300"
+          alt="tree care photo"
         />
       </div>
 
@@ -58,13 +60,14 @@ const Info = () => {
 				or preventing whatever problems might arise."
       />
 
-      <div className="mask mask-squircle order-6 md:order-6 xl:order-6">
+      <div className="mask mask-squircle bg-primary order-6 md:order-6 xl:order-6">
         <Image
           src="/images/work3.jpg"
           layout="responsive"
           objectFit="cover"
           width="300"
           height="300"
+          alt="tree care photo"
         />
       </div>
 
@@ -78,13 +81,14 @@ const Info = () => {
 				about their trees."
       />
 
-      <div className="mask mask-squircle order-8 md:order-7 xl:order-8">
+      <div className="mask mask-squircle bg-primary order-8 md:order-7 xl:order-8">
         <Image
           src="/images/work1.jpg"
           layout="responsive"
           objectFit="cover"
           width="300"
           height="300"
+          alt="tree care photo"
         />
       </div>
 
