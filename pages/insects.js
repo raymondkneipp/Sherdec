@@ -3,13 +3,17 @@ import { Layout, SEOTags } from "../components";
 
 function Insect({ title, content, pdf }) {
   return (
-    <div class="collapse border rounded-box border-base-300 collapse-plus">
+    <div className="collapse border rounded-box border-base-300 collapse-plus">
       <input type="checkbox" />
-      <div class="collapse-title text-xl font-bold text-primary">{title}</div>
-      <div class="collapse-content">
+      <div className="collapse-title text-xl font-bold text-primary">
+        {title}
+      </div>
+      <div className="collapse-content">
         <div className="flex flex-col space-y-5 items-start">
-          {content?.map((item) => (
-            <p className="text-base-content">{item}</p>
+          {content?.map((item, i) => (
+            <p className="text-base-content" key={i}>
+              {item}
+            </p>
           ))}
           {pdf && (
             <Link href={`/pdfs/${pdf}`}>

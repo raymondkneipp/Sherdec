@@ -11,8 +11,8 @@ function Season({ icon, title, list }) {
       <div className="">
         <h3 className="text-2xl font-bold mb-2">{title}</h3>
         <ul className="text-base-content text-opacity-80 list-disc space-y-2 list-outside ml-5">
-          {list.map((item) => (
-            <li>{item}</li>
+          {list.map((item, i) => (
+            <li key={i}>{item}</li>
           ))}
         </ul>
       </div>
