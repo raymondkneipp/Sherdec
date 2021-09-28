@@ -57,13 +57,19 @@ const MobileNavbar = () => {
               className="p-2 border border-base-200 shadow-xl menu dropdown-content bg-base-100 rounded-box w-full"
             >
               <li>
-                <a>Seasonal Care</a>
+                <Link href="/seasonal-care">
+                  <a>Seasonal Care</a>
+                </Link>
               </li>
               <li>
-                <a>Health/Maintenance</a>
+                <Link href="/health-maintenance">
+                  <a>Health/Maintenance</a>
+                </Link>
               </li>
               <li>
-                <a>Insects</a>
+                <Link href="/insects">
+                  <a>Insects</a>
+                </Link>
               </li>
               <li>
                 <a>Disease/Fertilization</a>

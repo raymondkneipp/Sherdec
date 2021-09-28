@@ -22,9 +22,15 @@ const Footer = () => {
           </div>
           <div>
             <span className="footer-title">Tree Care</span>
-            <a className="link link-hover">Seasonal Care</a>
-            <a className="link link-hover">Health / Maintenance</a>
-            <a className="link link-hover">Insects</a>
+            <Link href="/seasonal-care">
+              <a className="link link-hover">Seasonal Care</a>
+            </Link>
+            <Link href="/health-maintenance">
+              <a className="link link-hover">Health / Maintenance</a>
+            </Link>
+            <Link href="/insects">
+              <a className="link link-hover">Insects</a>
+            </Link>
             <a className="link link-hover">Disease / Fertilization</a>
             <a className="link link-hover">Pruning Tips</a>
           </div>
