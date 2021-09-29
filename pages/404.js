@@ -8,7 +8,7 @@ export default function NotFoundPage() {
       <div
         className="container py-20 sm:py-32 md:py-40 lg:py-56 xl:py-64 flex items-center justify-center"
         style={{
-          backgroundImage: "url('/images/tree-with-climber.svg')",
+          backgroundImage: "url('/images/tree-with-climber-flipped.svg')",
           backgroundSize: "contain",
           backgroundRepeat: "no-repeat",
           backgroundPosition: "right bottom",

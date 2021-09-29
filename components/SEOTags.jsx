@@ -14,6 +14,8 @@ const SEOTags = ({ title, description }) => {
       <meta property="og:title" content={titleTemplate} />
       <meta name="twitter:title" content={titleTemplate} />
 
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+
       <meta
         name="description"
         content={description ? `${description}` : `${defaultDescription}`}
