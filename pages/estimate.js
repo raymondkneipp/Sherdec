@@ -21,13 +21,13 @@ export default function QuotePage() {
               <label className="label">
                 <span className="label-text">Full Name</span>
               </label>
-              <input type="text" className="input input-bordered" />
+              <input type="text" className="input input-bordered text-base" />
             </div>
             <div className="form-control">
               <label className="label">
                 <span className="label-text">Email</span>
               </label>
-              <input type="text" className="input input-bordered" />
+              <input type="text" className="input input-bordered text-base" />
             </div>
             <div className="form-control">
               <label className="label">
@@ -35,7 +35,7 @@ export default function QuotePage() {
               </label>
               <input
                 type="text"
-                className="input input-bordered"
+                className="input input-bordered text-base"
                 placeholder=""
               />
               <label className="label label-text-alt">(555) 555-5555</label>
