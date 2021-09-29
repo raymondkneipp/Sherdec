@@ -90,8 +90,8 @@ const MobileNavbar = () => {
           </Link>
         </li>
         <li>
-          <Link href="/schedule">
-            <a className="btn btn-primary leading-4">Schedule</a>
+          <Link href="/estimate">
+            <a className="btn btn-primary leading-4">Free Estimate</a>
           </Link>
         </li>
       </ul>

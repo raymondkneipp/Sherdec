@@ -22,8 +22,8 @@ const Hero = () => {
           comprehensive tree care service.
         </p>
         <div className="flex flex-wrap">
-          <Link href="/schedule">
-            <a className="btn btn-lg btn-primary m-2">Schedule</a>
+          <Link href="/estimate">
+            <a className="btn btn-lg btn-primary m-2">Get My Free Estimate</a>
           </Link>
           <Link href="/contact">
             <a className="btn btn-lg m-2">Contact</a>

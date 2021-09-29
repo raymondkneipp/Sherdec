@@ -52,8 +52,8 @@ const Footer = () => {
             <Link href="/contact">
               <a className="link link-hover">Contact</a>
             </Link>
-            <Link href="/schedule">
-              <a className="link link-hover">Schedule</a>
+            <Link href="/estimate">
+              <a className="link link-hover">Free Estimate</a>
             </Link>
           </div>
           <div>

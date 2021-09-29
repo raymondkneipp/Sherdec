@@ -67,8 +67,8 @@ const Navbar = () => {
             <Link href="/contact">
               <a className="btn btn-ghost rounded-btn">Contact</a>
             </Link>
-            <Link href="/schedule">
-              <a className="btn btn-primary rounded-btn">Schedule</a>
+            <Link href="/estimate">
+              <a className="btn btn-primary rounded-btn">Free Estimate</a>
             </Link>
           </div>
         </div>
