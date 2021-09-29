@@ -11,13 +11,13 @@ const Form = () => {
             <label className="label">
               <span className="label-text">Full Name</span>
             </label>
-            <input type="text" className="input input-bordered text-base" />
+            <input type="text" className="input input-bordered text-lg" />
           </div>
           <div className="form-control">
             <label className="label">
               <span className="label-text">Email</span>
             </label>
-            <input type="text" className="input input-bordered text-base" />
+            <input type="text" className="input input-bordered text-lg" />
           </div>
           <div className="form-control">
             <label className="label">
@@ -25,7 +25,7 @@ const Form = () => {
             </label>
             <input
               type="text"
-              className="input input-bordered text-base"
+              className="input input-bordered text-lg"
               placeholder=""
             />
             <label className="label label-text-alt">(555) 555-5555</label>
@@ -34,7 +34,7 @@ const Form = () => {
             <label className="label">
               <span className="label-text">Your Message</span>
             </label>
-            <textarea className="textarea h-24 textarea-bordered text-base"></textarea>
+            <textarea className="textarea h-24 textarea-bordered text-lg"></textarea>
           </div>
           <div className="form-control mt-6">
             <input
